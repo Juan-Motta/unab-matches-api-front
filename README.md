@@ -1,29 +1,24 @@
-# matches-api-front
+# Aplicacion de administracion de partidos de futbol - UNAB
 
-This template should help get you started developing with Vue 3 in Vite.
+## Acerca de la app
 
-## Recommended IDE Setup
+Aplicacion que permite gestionar los partidos jugados por diferentes equipos
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Tecnologias utilizadas
 
-## Customize configuration
+La applicacion fue contruida usando las siguientes tecnologias:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+* Node 16
+* Vue 3
 
-## Project Setup
+## Instalacion y configuracion
 
-```sh
+Una vez clonado el repositorio, se debe ingresar a la carpeta raiz y ejecutar el comando
+```console
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+Una vez se han instalado los paquetes necesarios de Node, se debe correr el servidor de desarrollo con el comandi
+```console
+npm run serve
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+El servidor por defecto empezara a correr en el puerto 8080
